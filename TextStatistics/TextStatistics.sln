@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStatistics", "TextStatistics.csproj", "{7861D85C-421A-4F56-89B9-4DF77576E25C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStatistics.Tests", "..\TextStatistics.Tests\TextStatistics.Tests.csproj", "{6D7D8F85-6133-44D0-874B-436C37A204CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7861D85C-421A-4F56-89B9-4DF77576E25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7861D85C-421A-4F56-89B9-4DF77576E25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7861D85C-421A-4F56-89B9-4DF77576E25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7861D85C-421A-4F56-89B9-4DF77576E25C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D7D8F85-6133-44D0-874B-436C37A204CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7D8F85-6133-44D0-874B-436C37A204CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7D8F85-6133-44D0-874B-436C37A204CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7D8F85-6133-44D0-874B-436C37A204CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51E45AEB-CFDA-4466-A4F2-61C5DAB488BD}
+	EndGlobalSection
+EndGlobal
