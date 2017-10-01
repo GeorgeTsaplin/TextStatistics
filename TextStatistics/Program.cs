@@ -45,17 +45,6 @@ namespace TextStatistics
             }
         }
 
-        private static string Help()
-        {
-            return $@"You must specify following parameters:
--i <path to input file>
--o <path to output file>
--b <(optinal) buffer size, in KB, if not specified then 500>
--p <(optinal) number of thread for parallel execution, if not specified then 1>
--t <(optinal) timeout, in sec. By default infinite>
--c -- means case-insensitive text processing, if not specified then case-sensitive";
-        }
-
         class Options
         {
             [Option('i', "input", Required = true, HelpText = "Path to input file")]
